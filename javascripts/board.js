@@ -10,9 +10,9 @@ class Board{
       let $row = $('.hrow:last-child')
       column.forEach((dot, x) =>{
         if(x === 3){
-          $row.append(`<div class="dot" style="margin: 0%; height: 100%;"> </div>`)
+          $row.append(`<div class="dot" style="margin: 0%; height: 105%;"> </div>`)
         }else{
-          $row.append(`<div class="dot" style="margin: 0%; height: 100%;">  </div> <div class="line" id="${x}-${y}">` + '</div>')
+          $row.append(`<div class="dot" style="margin: 0%; height: 105%;">  </div> <div class="line" id="${x}-${y}">` + '</div>')
         }
       })
       $board.append(`</div>`)
